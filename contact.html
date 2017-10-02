@@ -2,26 +2,26 @@
 title: Contact
 description: Send us a message to find out more!
 map:
-  latitude: -45.8787605
-  longitude: 170.5027976
-  address: "1 George Street, Dunedin, New Zealand"
+  latitude: 41.5503200
+  longitude: -8.4200500°  
+  address: "R. da Universidade, Gualtar, Braga, Portugal"
   zoom: 13
-image: https://source.unsplash.com/WNAO036c6FM/2000x1322?a=.png
+image: /images/Cover-Jekyll/contactus.png
 ---
 
 <section class="hero" style="background-image: url({% include relative-src.html src=page.image %})">
 	<div class="inner-hero text-container">
-		<div class="hero-text-container">
+		<div class="hero-text-container" style="margin-left:-200px">
 			<h1 class="editable">Get in touch today</h1>
-			<p class="subtext editable">If you have any questions or queries send us a message and we'll get back to you as soon as we can.</p>
+			<p class="subtext editable">If you have any questions or queries send us a message and <br> we'll get back to you as soon as we can.</p>
 		</div>
 	</div>
 </section>
 
 <section class="pad">
 	<div class="text-container contact-box">
-		<form action="{{ site.baseurl }}/contact-success/" method="post" class="contact-form">
-			<input type="hidden" name="_to" value="support@cloudcannon.com">
+		<form action="https://formspree.io/wattchargerinfo@gmail.com" method="post" class="contact-form">
+			<input type="hidden" name="_to" value="wattchargerinfo@gmail.com">
 			<input type="text" name="_gotcha" style="display: none;">
 
 			<label for="name">Name</label>
@@ -34,6 +34,8 @@ image: https://source.unsplash.com/WNAO036c6FM/2000x1322?a=.png
 			<textarea name="message" id="message" placeholder="Enter your message..."></textarea>
 
 			<input type="submit" value="Send Message">
+
+			<input type="hidden" name="_next" value="{{ site.baseurl }}/contact-success/" />
 		</form>
 
 		<div class="contact-details">
@@ -41,7 +43,7 @@ image: https://source.unsplash.com/WNAO036c6FM/2000x1322?a=.png
 			<address><a target="_blank" href="https://www.google.com/maps/place/{{ page.map.address | url_encode }}">{{ page.map.address | replace: ", ", ", <br>" }}</a></address>
 
 			<h3>Email</h3>
-			<p class="editable"><a href="mailto:support@example.com">support@example.com</a></p>
+			<p class="editable"><a href="mailto:wattchargerinfo@gmail.com">wattchargerinfo@gmail.com</a></p>
 		</div>
 	</div>
 </section>

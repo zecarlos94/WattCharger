@@ -1,39 +1,17 @@
-# Frisco
+# WattCharger
 
-App promotion themed template for Jekyll. Browse through a [live demo](https://brave-submarine.cloudvent.net/).
-Increase the web presence of a App with this configurable theme.
+WattCharger is a platform that unifies multiple charging cards, allowing you to travel longer distances easily, i.e., less time spent creating accounts(other charging cards) for each country you visit. Also simplifies the process of finding new charging posts that are compatible with your EV specifications.
 
-![Frisco template screenshot](images/_screenshot.jpg)
-
-Frisco was made by [CloudCannon](http://cloudcannon.com/), the Cloud CMS for Jekyll.
-Find more templates and themes at [Jekyll Tips](http://jekyll.tips/templates/).
-
-Learn Jekyll with step-by-step tutorials and videos at [Jekyll Tips](http://jekyll.tips/).
-
-## Features
-
-* Contact form
-* Pre-built pages
-* Pre-styled components
-* Blog with pagination
-* Post category pages
-* Disqus comments for posts
-* Staff and author system
-* Configurable footer
-* Optimised for editing in [CloudCannon](http://cloudcannon.com/)
-* RSS/Atom feed
-* SEO tags
-* Google Analytics
 
 ## Setup
 
 1. Add your site and author details in `_config.yml`.
-2. Add your Google Analytics and Disqus keys to `_config.yml`.
-3. Get a workflow going to see your site's output (with [CloudCannon](https://app.cloudcannon.com/) or Jekyll locally).
+2. Add your Google Analytics, Google Maps API and Disqus keys to `_config.yml`.
+3. Get a workflow going to see your site's output (with https://www.zecarlos94.github.io/WattCharger/) or Jekyll locally).
 
 ## Develop
 
-Frisco was built with [Jekyll](http://jekyllrb.com/) version 3.3.1, but should support newer versions as well.
+WattCharger was built with [Jekyll](http://jekyllrb.com/) version 3.3.1, but should support newer versions as well.
 
 Install the dependencies with [Bundler](http://bundler.io/):
 
@@ -47,24 +25,13 @@ Run `jekyll` commands through Bundler to ensure you're using the right versions:
 $ bundle exec jekyll serve
 ~~~
 
-## Editing
-
-Frisco is already optimised for adding, updating and removing pages, staff, advice, company details and footer elements in CloudCannon.
-
-### Posts
-
-* Add, update or remove a post in the *Posts* collection.
-* The **Staff Author** field links to members in the **Staff Members** collection.
-* Documentation pages are organised in the navigation by category, with URLs based on the path inside the `_docs` folder.
-* Change the defaults when new posts are created in `_posts/_defaults.md`.
-
 ### Contact Form
 
-* Preconfigured to work with CloudCannon, but easily changed to another provider (e.g. [FormSpree](https://formspree.io/)).
+* Configured to work with FormSpree(https://formspree.io/)).
 
 ### Staff
 
-* Reused around the site to save multiple editing locations.
+* Reused around the site to save multiple editing locations(about us section).
 
 ### Footer
 
